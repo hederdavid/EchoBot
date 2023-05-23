@@ -153,6 +153,11 @@ a:hover::before {
         border-bottom: 1px solid white;
     }
 
+    header h1 {
+        margin-left: -10%;
+        font-size: 2em;
+    }
+
     nav {
         display: none;
     }
@@ -162,6 +167,7 @@ a:hover::before {
         align-items: center;
         visibility: visible;
         cursor: pointer;
+        margin-left: 20%;
     }
 
     .conteudo-echobot {
@@ -200,8 +206,4 @@ a:hover::before {
         padding-top: 25px;
     }
 
-    
-
-
-    
 }
