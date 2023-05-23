@@ -27,9 +27,16 @@ header {
     
 }
 
-header img {
-    height: 132px;
-    padding: 2%;
+header span {
+    color: white;
+}
+
+header h1 {
+    color: #00bd9d;
+    margin-left: -2%;
+    font-size: 3em;
+    padding: 50px;
+    font-family: var(--fonte2);
 }
 
 nav {
@@ -66,10 +73,69 @@ a:hover::before {
 
 .conteudo-echobot {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
 }
 
+.conteudo-principal {
+    padding-top: 5%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.conteudo-principal  h1 {
+    font-size: 5em;
+    font-family: var(--fonte2);
+    color: white;
+}
+
+.conteudo-principal  p {
+    font-size: 1.3em;
+    font-family: var(--fonte1);
+    color: white;
+    margin-bottom: 15px;
+}
+
 .imagem-principal {
-    height: 300px;
+    padding-top: 50px;
+    height: 400px;
+}
+
+.conteudo-principal a {
+    display: flex;
+    background-color: #00bd9d;
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: var(--fonte1);
+    font-size: 1.5em;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-principal a:hover {
+    transition: all 0.4s; 
+    color: #00bd9d;
+    background-color: white;
+}
+
+.funcoes-do-bot {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: var(--fonte1);
+    margin-bottom: 45px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+.funcoes-do-bot h2 {
+    padding-top: 50px;
+    border-top: 1px solid white;
 }
