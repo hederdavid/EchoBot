@@ -170,8 +170,23 @@ a:hover::before {
         align-items: center;
     }
 
-    .conteudo-echobot img {
+    .conteudo-principal {
+        width: 80vw;
+        margin: auto;
+        text-align: center;
         
+    }
+
+    .conteudo-principal a {
+        margin: auto;
+        text-align: center;
+        
+    }
+
+
+    .conteudo-echobot img {
+        margin-left: 8%;
+        text-align: center;
         padding-bottom: 50px;
     }
 
