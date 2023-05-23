@@ -35,7 +35,7 @@ header h1 {
     color: #00bd9d;
     margin-left: -2%;
     font-size: 3em;
-    padding: 50px;
+    padding: 40px;
     font-family: var(--fonte2);
 }
 
@@ -89,13 +89,13 @@ a:hover::before {
     
 }
 
-.conteudo-principal  h1 {
+.conteudo-principal h1 {
     font-size: 5em;
     font-family: var(--fonte2);
     color: white;
 }
 
-.conteudo-principal  p {
+.conteudo-principal p {
     font-size: 1.3em;
     font-family: var(--fonte1);
     color: white;
@@ -151,11 +151,13 @@ a:hover::before {
         justify-content: space-around;
         flex-direction: row;
         border-bottom: 1px solid white;
+
     }
 
     header h1 {
         margin-left: -5%;
         font-size: 2em;
+        padding: 20px;
     }
 
     nav {
