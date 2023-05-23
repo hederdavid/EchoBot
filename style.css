@@ -161,6 +161,7 @@ a:hover::before {
         display: flex;
         align-items: center;
         visibility: visible;
+        cursor: pointer;
     }
 
     .conteudo-echobot {
@@ -175,6 +176,7 @@ a:hover::before {
     }
 
     .funcoes-do-bot {
+        margin-left: 5%;
         text-align: center;
     }
 
