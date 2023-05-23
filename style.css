@@ -154,7 +154,7 @@ a:hover::before {
     }
 
     header h1 {
-        margin-left: -10%;
+        margin-left: -5%;
         font-size: 2em;
     }
 
@@ -168,6 +168,7 @@ a:hover::before {
         visibility: visible;
         cursor: pointer;
         margin-left: 20%;
+        padding: 30px;
     }
 
     .conteudo-echobot {
